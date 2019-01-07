@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { CreationFormComponent } from './creation-form/creation-form.component';
 import { MaterialModule } from '../material.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { MatExpansionModule } from '@angular/material';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     ReactiveFormsModule,
     MaterialModule,
     MDBBootstrapModule.forRoot(),
-    FormsModule
+    FormsModule,
+    MatExpansionModule
   ],
   declarations: [
     CreationFormComponent,

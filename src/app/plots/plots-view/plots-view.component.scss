@@ -2,10 +2,34 @@ table {
   width: 100%;
 }
 button {
-
+  size: 23px;
+}
+mat-icon {
+  font-size: 15px;
 }
 
 th {
-  font-size: 15px;
-  color: rgb(107, 107, 107);
+  font-size: 14px;
+  // color: rgb(255, 102, 0);
 }
+
+mat-card {
+  align-content: center;
+}
+
+.add-btn {
+  margin-right: 75px;
+}
+.header {
+  float: right;
+}
+.table-plots {
+  //  height: 400px;
+   width: 100%;
+  overflow: auto;
+}
+
+.container {
+  // overflow: auto;
+}
+
